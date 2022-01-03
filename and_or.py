@@ -3,9 +3,19 @@
 
 def between_zero_and_one(number):
     # function should return true if the function input "number" is between zero and one (but not zero or one)
-    return
+    return 1>number>0
+
+
+
+
 
 
 def integer_or_float(value):
     # function should return true if the function type is integer or float, false for other types
-    return
+    if type(value)==type(1):
+        return True
+    else:
+        if type(value)==type(2.5):
+            return True
+        else:
+            return False

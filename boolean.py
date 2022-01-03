@@ -3,9 +3,8 @@
 
 def you_cant_handle_the_truth():
     # function should return boolean true value
-    return true
-
+    return 1 or 0
 
 def booleans_are_easy():
     # function should return boolean false value
-    return false
+    return 1 and 0
